@@ -1,0 +1,6 @@
+framework module Pods_MVVM_SWIFTUI_COMBINE_MVVM_SWIFTUI_COMBINEUITests {
+  umbrella header "Pods-MVVM+SWIFTUI+COMBINE-MVVM+SWIFTUI+COMBINEUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
