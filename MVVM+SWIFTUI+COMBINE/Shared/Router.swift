@@ -14,7 +14,7 @@ enum Router: URLRequestConvertible {
     case postDetails(postID: Int)
     
     var baseURL: URL {
-        return URL(string: "https://jsonplaceholder.typicode.com/")!
+        return URL(string: Environment().baseURL)!
     }
     
     var method: HTTPMethod {

@@ -20,7 +20,6 @@ struct PostsListView: View {
                 }
             }
             .navigationBarTitle("Posts")
-            
         }
     }
 }
