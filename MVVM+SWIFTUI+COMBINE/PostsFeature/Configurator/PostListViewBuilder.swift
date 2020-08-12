@@ -10,7 +10,8 @@ import Foundation
 import SwiftUI
 
 enum PostListViewBuilder {
-  static func make() -> some View {
+    static func make() -> some View {
+        
     let postsInteractor = PostsInteractor()
     let viewModel = PostslistViewModel(postsInteractor: postsInteractor)
     return PostsListView(viewModel: viewModel)

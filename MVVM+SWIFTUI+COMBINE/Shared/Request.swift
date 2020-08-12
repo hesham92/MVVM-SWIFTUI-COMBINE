@@ -1,5 +1,5 @@
 //
-//  Router.swift
+//  Request.swift
 //  MVVM+SWIFTUI+COMBINE
 //
 //  Created by hesham hassan on 25/07/2020.
@@ -9,34 +9,19 @@
 import Foundation
 import Alamofire
 
-enum Router: URLRequestConvertible {
-    case posts
-    case postDetails(postID: Int)
-    
+protocol Request: URLRequestConvertible {
+    var method: HTTPMethod { get  }
+    var path: String { get  }
+}
+
+extension Request {
     var baseURL: URL {
         return URL(string: Environment().baseURL)!
     }
-    
-    var method: HTTPMethod {
-        switch self {
-        case .posts, .postDetails: return .get
-        }
-    }
-    
-    var path: String {
-        switch self {
-        case .posts:
-            return "posts"
-        case .postDetails(let postID):
-            return "posts/\(postID)"
-        }
-    }
-    
     func asURLRequest() throws -> URLRequest {
         let url = baseURL.appendingPathComponent(path)
         var request = URLRequest(url: url)
         request.method = method
-        
         return request
     }
 }
