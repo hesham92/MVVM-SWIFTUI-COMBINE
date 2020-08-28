@@ -11,11 +11,9 @@ import SwiftUI
 
 
 enum PostDetailsViewBuilder {
-  static func make(
-    postID: Int,
-    postsInteractor: PostsInteractorProtocol
-  ) -> some View {
-    let viewModel = PostDetailsViewModel(postsInteractor: postsInteractor, postID: postID)
+  static func make(postID: Int) -> some View {
+    let postsRepository = PostsRepository(apiClient: CommonDependencies.makeAPIClient())
+    let viewModel = PostDetailsViewModel(postsRepository: postsRepository, postID: postID)
     return PostDetailView(viewModel: viewModel)
   }
 }

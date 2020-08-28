@@ -11,9 +11,8 @@ import SwiftUI
 
 enum PostListViewBuilder {
     static func make() -> some View {
-        
-    let postsInteractor = PostsInteractor()
-    let viewModel = PostslistViewModel(postsInteractor: postsInteractor)
+    let postsRepository = PostsRepository(apiClient: CommonDependencies.makeAPIClient())
+    let viewModel = PostslistViewModel(postsRepository: postsRepository)
     return PostsListView(viewModel: viewModel)
   }
 }

@@ -8,22 +8,21 @@
 
 import Foundation
 import Combine
-import Alamofire
 
 class PostDetailsViewModel: ObservableObject {
     
     @Published var content: String = ""
     private var disposables = Set<AnyCancellable>()
-    private let postsInteractor: PostsInteractorProtocol
+    private let postsRepository: PostsRepositoryProtocol
     
-    init(postsInteractor: PostsInteractorProtocol, postID: Int) {
-        self.postsInteractor = postsInteractor
+    init(postsRepository: PostsRepositoryProtocol, postID: Int) {
+        self.postsRepository = postsRepository
         
         self.fetchPostDetails(postID: postID)
     }
     
     func fetchPostDetails(postID: Int) {
-        postsInteractor.getPostDeatails(postID: postID)
+        postsRepository.getPostDetails(postID: postID)
             .sink(
                 receiveCompletion: { [weak self] value in
                     guard let self = self else { return }

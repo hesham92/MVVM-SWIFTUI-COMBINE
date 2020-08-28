@@ -15,7 +15,7 @@ struct PostsListView: View {
     var body: some View {
         NavigationView {
             List(viewModel.posts) { post in
-                NavigationLink(destination: self.viewModel.postDetailsView(post: post)) {
+                NavigationLink(destination: PostDetailsViewBuilder.make(postID: post.id)) {
                     PostRow(post: post)
                 }
             }

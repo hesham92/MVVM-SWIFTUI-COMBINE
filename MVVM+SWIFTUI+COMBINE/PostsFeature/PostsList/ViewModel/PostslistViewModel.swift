@@ -9,21 +9,20 @@
 import Foundation
 import Combine
 import SwiftUI
-import Alamofire
 
 class PostslistViewModel: ObservableObject {
     
     @Published var posts: [Post] = []
-    let postsInteractor: PostsInteractorProtocol
+    let postsRepository: PostsRepositoryProtocol
     var disposables = Set<AnyCancellable>()
     
-    init(postsInteractor: PostsInteractorProtocol) {
-        self.postsInteractor = postsInteractor
+    init(postsRepository: PostsRepositoryProtocol) {
+        self.postsRepository = postsRepository
         self.fetchPosts()
     }
     
     func fetchPosts() {
-        postsInteractor.getPosts()
+        postsRepository.getPosts()
             .sink(
                 receiveCompletion: { [weak self] value in
                     guard let self = self else { return }
@@ -41,11 +40,3 @@ class PostslistViewModel: ObservableObject {
             .store(in: &disposables)
     }
 }
-
-extension PostslistViewModel {
-    func postDetailsView(post: Post)  -> some View {
-        return PostDetailsViewBuilder.make(postID: post.id, postsInteractor: self.postsInteractor
-    )
-  }
-}
-

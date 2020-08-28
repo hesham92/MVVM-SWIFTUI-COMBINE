@@ -7,17 +7,18 @@
 //
 
 import Foundation
-import Alamofire
 
-protocol Request: URLRequestConvertible {
+protocol EndPointProtocol: URLRequestConvertible {
     var method: HTTPMethod { get  }
     var path: String { get  }
 }
 
-extension Request {
+extension EndPointProtocol {
+    
     var baseURL: URL {
         return URL(string: Environment().baseURL)!
     }
+    
     func asURLRequest() throws -> URLRequest {
         let url = baseURL.appendingPathComponent(path)
         var request = URLRequest(url: url)

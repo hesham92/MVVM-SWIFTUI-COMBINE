@@ -6,12 +6,13 @@
 //  Copyright © 2020 hesham Elsherif. All rights reserved.
 //
 
+
 import Foundation
 import Combine
 import Alamofire
 
-class APIClient {
-    func getData<T: Decodable>(request: URLRequestConvertible) -> AnyPublisher<T, APIError> {
+class AlamofireClient: APIClientProtocol {
+   func getData<T: Decodable>(request: URLRequestConvertible) -> AnyPublisher<T, APIError> {
         AF.request(request)
             .publishDecodable(type: T.self)
             .value()
@@ -20,9 +21,7 @@ class APIClient {
     }
 }
 
-enum APIError: Error {
-    case invalidURL
-    case unkownError(Error)
+extension APIError {
     init(error: AFError) {
         if error.isInvalidURLError {
             self = .invalidURL
@@ -31,6 +30,4 @@ enum APIError: Error {
         }
     }
 }
-
-
 
