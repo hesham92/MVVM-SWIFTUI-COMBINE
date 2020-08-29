@@ -229,6 +229,14 @@
 			path = Screens;
 			sourceTree = "<group>";
 		};
+		4316599B24FB0C5A0023C746 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				437CE22F24CF6ACA00B8E6C8 /* PostsFeature */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
 		436904D224CB145A0097E319 = {
 			isa = PBXGroup;
 			children = (
@@ -257,8 +265,7 @@
 			isa = PBXGroup;
 			children = (
 				437CE22524CF67DD00B8E6C8 /* Shared */,
-				4369051B24CC4ACC0097E319 /* Network */,
-				437CE22F24CF6ACA00B8E6C8 /* PostsFeature */,
+				4316599B24FB0C5A0023C746 /* Features */,
 				436904E724CB145B0097E319 /* Assets.xcassets */,
 				436904EC24CB145B0097E319 /* LaunchScreen.storyboard */,
 				436904EF24CB145B0097E319 /* Info.plist */,
@@ -325,6 +332,7 @@
 			isa = PBXGroup;
 			children = (
 				439AAD4824EDD3E7005FB2E1 /* AppDelegate+Services */,
+				4369051B24CC4ACC0097E319 /* Network */,
 				4316599724FB0AC00023C746 /* Enviroment */,
 				4316599824FB0ACC0023C746 /* Dependencies */,
 				4316599624FB0AAD0023C746 /* Views */,
