@@ -10,7 +10,6 @@ import Foundation
 
 enum CommonDependencies {
     static func makeAPIClient() ->  APIClientProtocol {
-      return  AlamofireClient()
-
-  }
+        return AlamofireClient()
+    }
 }

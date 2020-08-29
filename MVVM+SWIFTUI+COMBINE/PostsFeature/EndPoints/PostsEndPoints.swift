@@ -9,7 +9,7 @@
 
 import Foundation
 
-enum PostsEndPoints: EndPointProtocol {
+enum PostsEndPoints: BaseEndPointProtocol {
     case posts
     case postDetails(postID: Int)
     

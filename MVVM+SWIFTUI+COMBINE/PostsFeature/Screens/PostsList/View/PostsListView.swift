@@ -11,16 +11,17 @@ import SwiftUI
 struct PostsListView: View {
     
     @ObservedObject var viewModel: PostslistViewModel
-    
+   // @State var bannerData: BannerModifier.BannerData
+
     var body: some View {
         NavigationView {
             List(viewModel.posts) { post in
-                NavigationLink(destination: PostDetailsViewBuilder.make(postID: post.id)) {
+                NavigationLink(destination: PostsFeature.postDetailsView(postID: post.id)) {
                     PostRow(post: post)
                 }
             }
             .navigationBarTitle("Posts")
-        }
+        }//.banner(data: $bannerData , show: $viewModel.showBanner)
     }
 }
 
@@ -32,6 +33,7 @@ struct PostRow: View {
             VStack(alignment: .leading) {
                 Text(post.title)
                     .font(.system(size: 21, weight: .medium, design: .default))
+                   
             }
         }
     }

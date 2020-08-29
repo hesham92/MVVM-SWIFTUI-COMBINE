@@ -8,12 +8,12 @@
 
 import Foundation
 
-protocol EndPointProtocol: URLRequestConvertible {
+protocol BaseEndPointProtocol: URLRequestConvertible {
     var method: HTTPMethod { get  }
     var path: String { get  }
 }
 
-extension EndPointProtocol {
+extension BaseEndPointProtocol {
     
     var baseURL: URL {
         return URL(string: Environment().baseURL)!

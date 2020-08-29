@@ -13,6 +13,10 @@ import SwiftUI
 class PostslistViewModel: ObservableObject {
     
     @Published var posts: [Post] = []
+    @Published var showBanner: Bool = false
+    @Published var errorMessage: String = ""
+
+
     let postsRepository: PostsRepositoryProtocol
     var disposables = Set<AnyCancellable>()
     
@@ -27,7 +31,9 @@ class PostslistViewModel: ObservableObject {
                 receiveCompletion: { [weak self] value in
                     guard let self = self else { return }
                     switch value {
-                    case .failure:
+                    case .failure(let error):
+                        self.showBanner = true
+                       print(error.message)
                         self.posts = []
                     default:
                         break
