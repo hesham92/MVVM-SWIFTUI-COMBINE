@@ -256,8 +256,6 @@
 		436904DD24CB145A0097E319 /* MVVM+SWIFTUI+COMBINE */ = {
 			isa = PBXGroup;
 			children = (
-				436904DE24CB145A0097E319 /* AppDelegate.swift */,
-				436904E024CB145A0097E319 /* SceneDelegate.swift */,
 				437CE22524CF67DD00B8E6C8 /* Shared */,
 				4369051B24CC4ACC0097E319 /* Network */,
 				437CE22F24CF6ACA00B8E6C8 /* PostsFeature */,
@@ -326,10 +324,10 @@
 		437CE22524CF67DD00B8E6C8 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				4316599824FB0ACC0023C746 /* Dependencies */,
-				4316599724FB0AC00023C746 /* Enviroment */,
-				4316599624FB0AAD0023C746 /* Views */,
 				439AAD4824EDD3E7005FB2E1 /* AppDelegate+Services */,
+				4316599724FB0AC00023C746 /* Enviroment */,
+				4316599824FB0ACC0023C746 /* Dependencies */,
+				4316599624FB0AAD0023C746 /* Views */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -397,6 +395,8 @@
 		439AAD4824EDD3E7005FB2E1 /* AppDelegate+Services */ = {
 			isa = PBXGroup;
 			children = (
+				436904DE24CB145A0097E319 /* AppDelegate.swift */,
+				436904E024CB145A0097E319 /* SceneDelegate.swift */,
 				439AAD4924EDD3E7005FB2E1 /* CrashReporterService.swift */,
 				439AAD4A24EDD3E7005FB2E1 /* PersistenceService.swift */,
 				439AAD4B24EDD3E7005FB2E1 /* AnalyticsService.swift */,
