@@ -18,15 +18,16 @@ typealias HTTPMethod = Alamofire.HTTPMethod
 
 class AlamofireClient: APIClientProtocol {
     func getData<T: Decodable>(request: URLRequestConvertible) -> AnyPublisher<T, APIError> {
-      //  print("Request Url:", try! request.asURLRequest())
-       // print("Request Url:", try! request.asURLRequest().httpMethod)
+        print("Request Url:", try! request.asURLRequest())
+        print("Request Method:", try! request.asURLRequest().httpMethod!)
+        print("Request Headers:", try! request.asURLRequest().headers)
 
         return AF.request(request)
             .publishDecodable(type: T.self)
             .value()
             .mapError(APIError.init(error:))
+            .print()
             .eraseToAnyPublisher()
-
     }
 }
 
@@ -45,3 +46,4 @@ enum APIError: Error {
         }
     }
 }
+

@@ -19,10 +19,14 @@ extension BaseEndPointProtocol {
         return URL(string: Environment().baseURL)!
     }
     
-    func asURLRequest() throws -> URLRequest {
+    var baseRequest: URLRequest {
         let url = baseURL.appendingPathComponent(path)
         var request = URLRequest(url: url)
-        request.method = method
+        request.httpMethod = method.rawValue
         return request
+    }
+    
+    func asURLRequest() throws -> URLRequest {
+        baseRequest
     }
 }

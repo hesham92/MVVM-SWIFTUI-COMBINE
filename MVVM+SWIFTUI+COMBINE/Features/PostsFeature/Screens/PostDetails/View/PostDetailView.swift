@@ -18,6 +18,9 @@ struct PostDetailView: View {
         Text(viewModel.content)
             .foregroundColor(.gray)
             .font(.callout)
+            .onAppear(perform: {
+                self.viewModel.fetchPostDetails()
+            })
     }
 }
 

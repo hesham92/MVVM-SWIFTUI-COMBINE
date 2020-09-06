@@ -9,9 +9,6 @@ target 'Development' do
 
 pod 'Alamofire', '~> 5.2'
 
-
-
-
   # Pods for MVVM+SWIFTUI+COMBINE
 
   target 'MVVM+SWIFTUI+COMBINETests' do

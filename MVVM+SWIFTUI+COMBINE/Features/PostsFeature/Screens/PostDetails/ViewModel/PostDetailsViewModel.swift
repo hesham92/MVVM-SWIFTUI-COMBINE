@@ -12,16 +12,17 @@ import Combine
 class PostDetailsViewModel: ObservableObject {
     
     @Published var content: String = ""
+    
     private var disposables = Set<AnyCancellable>()
     private let postsRepository: PostsRepositoryProtocol
+    let postID: Int
     
     init(postsRepository: PostsRepositoryProtocol, postID: Int) {
         self.postsRepository = postsRepository
-        
-        self.fetchPostDetails(postID: postID)
+        self.postID = postID
     }
     
-    func fetchPostDetails(postID: Int) {
+    func fetchPostDetails() {
         postsRepository.getPostDetails(postID: postID)
             .sink(
                 receiveCompletion: { [weak self] value in

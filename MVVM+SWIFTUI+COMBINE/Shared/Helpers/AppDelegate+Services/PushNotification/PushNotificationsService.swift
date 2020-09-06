@@ -8,7 +8,7 @@
 
 import UIKit
 
-class PersistenceService: NSObject, UIApplicationDelegate {
+class PushNotificationsService: NSObject, UIApplicationDelegate {
     func applicationDidEnterBackground(_ application: UIApplication) {
         print ("Persistence")
     }

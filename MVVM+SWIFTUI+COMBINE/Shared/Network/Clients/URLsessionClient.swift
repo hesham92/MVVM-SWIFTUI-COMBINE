@@ -6,9 +6,10 @@
 //  Copyright © 2020 hesham Elsherif. All rights reserved.
 //
 
+
 import Foundation
 import Combine
-/*
+
 class URLsessionClient: APIClientProtocol {
    func getData<T: Decodable>(request: URLRequestConvertible) -> AnyPublisher<T, APIError> {
         do {
@@ -26,7 +27,7 @@ class URLsessionClient: APIClientProtocol {
 
 extension APIError {
     init(error: Error) {
-        self = .unkownError(error)
+        self = .apiError
     }
 }
-*/
+

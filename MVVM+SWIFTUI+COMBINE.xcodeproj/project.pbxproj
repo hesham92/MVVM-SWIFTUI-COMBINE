@@ -14,10 +14,12 @@
 		43093C8524E4AD890069BB01 /* PostsEndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43093C8324E4AD890069BB01 /* PostsEndPoints.swift */; };
 		43093C8824E4ADC00069BB01 /* PostListViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43093C8724E4ADC00069BB01 /* PostListViewBuilder.swift */; };
 		43093C8924E4ADC00069BB01 /* PostListViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43093C8724E4ADC00069BB01 /* PostListViewBuilder.swift */; };
-		4316599224FADDB30023C746 /* Banner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4316599124FADDB30023C746 /* Banner.swift */; };
-		4316599324FADDB30023C746 /* Banner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4316599124FADDB30023C746 /* Banner.swift */; };
+		435D88D824FDB82F00768A5D /* SnackBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435D88D724FDB82F00768A5D /* SnackBar.swift */; };
+		435D88D924FDB82F00768A5D /* SnackBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435D88D724FDB82F00768A5D /* SnackBar.swift */; };
+		435D88DB24FDC0E600768A5D /* UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435D88DA24FDC0E600768A5D /* UIDevice.swift */; };
+		435D88DC24FDC0E600768A5D /* UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435D88DA24FDC0E600768A5D /* UIDevice.swift */; };
 		4367EEBA24F6514D0089761B /* CrashReporterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439AAD4924EDD3E7005FB2E1 /* CrashReporterService.swift */; };
-		4367EEBB24F651500089761B /* PersistenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439AAD4A24EDD3E7005FB2E1 /* PersistenceService.swift */; };
+		4367EEBB24F651500089761B /* PushNotificationsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439AAD4A24EDD3E7005FB2E1 /* PushNotificationsService.swift */; };
 		4367EEBC24F651520089761B /* AnalyticsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439AAD4B24EDD3E7005FB2E1 /* AnalyticsService.swift */; };
 		4367EEC224F993EE0089761B /* APIClientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4367EEC124F993EE0089761B /* APIClientProtocol.swift */; };
 		4367EEC324F993EE0089761B /* APIClientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4367EEC124F993EE0089761B /* APIClientProtocol.swift */; };
@@ -56,7 +58,7 @@
 		437CE22724CF67FD00B8E6C8 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437CE22624CF67FD00B8E6C8 /* Environment.swift */; };
 		437CE22824CF67FD00B8E6C8 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437CE22624CF67FD00B8E6C8 /* Environment.swift */; };
 		439AAD4C24EDD3E8005FB2E1 /* CrashReporterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439AAD4924EDD3E7005FB2E1 /* CrashReporterService.swift */; };
-		439AAD4D24EDD3E8005FB2E1 /* PersistenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439AAD4A24EDD3E7005FB2E1 /* PersistenceService.swift */; };
+		439AAD4D24EDD3E8005FB2E1 /* PushNotificationsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439AAD4A24EDD3E7005FB2E1 /* PushNotificationsService.swift */; };
 		439AAD4E24EDD3E8005FB2E1 /* AnalyticsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439AAD4B24EDD3E7005FB2E1 /* AnalyticsService.swift */; };
 		76C7823B1C1B2D55BC6D1888 /* Pods_Development_MVVM_SWIFTUI_COMBINEUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D2832BD2D1F7D4C21841597 /* Pods_Development_MVVM_SWIFTUI_COMBINEUITests.framework */; };
 		8D28C58C60501DBB09438A36 /* Pods_MVVM_SWIFTUI_COMBINETests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C72FC890D2B627B511945E30 /* Pods_MVVM_SWIFTUI_COMBINETests.framework */; };
@@ -85,7 +87,8 @@
 		43093C8024E4AD070069BB01 /* BaseEndPointProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseEndPointProtocol.swift; sourceTree = "<group>"; };
 		43093C8324E4AD890069BB01 /* PostsEndPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsEndPoints.swift; sourceTree = "<group>"; };
 		43093C8724E4ADC00069BB01 /* PostListViewBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostListViewBuilder.swift; sourceTree = "<group>"; };
-		4316599124FADDB30023C746 /* Banner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Banner.swift; sourceTree = "<group>"; };
+		435D88D724FDB82F00768A5D /* SnackBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnackBar.swift; sourceTree = "<group>"; };
+		435D88DA24FDC0E600768A5D /* UIDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDevice.swift; sourceTree = "<group>"; };
 		4367EEC124F993EE0089761B /* APIClientProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClientProtocol.swift; sourceTree = "<group>"; };
 		4367EEC424F9961D0089761B /* CommonDependencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonDependencies.swift; sourceTree = "<group>"; };
 		4367EECA24F99AD50089761B /* URLsessionClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLsessionClient.swift; sourceTree = "<group>"; };
@@ -114,7 +117,7 @@
 		437CE22424CF639E00B8E6C8 /* MVVM+SWIFTUI+COMBINE copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "MVVM+SWIFTUI+COMBINE copy-Info.plist"; path = "/Users/heshamhassan/Documents/hesham/sourceCode/MVVM-SWIFTUI_COMBINE/MVVM+SWIFTUI+COMBINE copy-Info.plist"; sourceTree = "<absolute>"; };
 		437CE22624CF67FD00B8E6C8 /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
 		439AAD4924EDD3E7005FB2E1 /* CrashReporterService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrashReporterService.swift; sourceTree = "<group>"; };
-		439AAD4A24EDD3E7005FB2E1 /* PersistenceService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistenceService.swift; sourceTree = "<group>"; };
+		439AAD4A24EDD3E7005FB2E1 /* PushNotificationsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushNotificationsService.swift; sourceTree = "<group>"; };
 		439AAD4B24EDD3E7005FB2E1 /* AnalyticsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalyticsService.swift; sourceTree = "<group>"; };
 		5EE98BB487548B6C6841F21E /* Pods-Development.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Development.debug.xcconfig"; path = "Target Support Files/Pods-Development/Pods-Development.debug.xcconfig"; sourceTree = "<group>"; };
 		7888B6160EE0EE5FA0D7C871 /* Pods-Development.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Development.release.xcconfig"; path = "Target Support Files/Pods-Development/Pods-Development.release.xcconfig"; sourceTree = "<group>"; };
@@ -199,7 +202,7 @@
 		4316599624FB0AAD0023C746 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				4316599124FADDB30023C746 /* Banner.swift */,
+				435D88D724FDB82F00768A5D /* SnackBar.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -207,17 +210,18 @@
 		4316599724FB0AC00023C746 /* Enviroment */ = {
 			isa = PBXGroup;
 			children = (
+				435D88DA24FDC0E600768A5D /* UIDevice.swift */,
 				437CE22624CF67FD00B8E6C8 /* Environment.swift */,
 			);
 			path = Enviroment;
 			sourceTree = "<group>";
 		};
-		4316599824FB0ACC0023C746 /* Dependencies */ = {
+		4316599824FB0ACC0023C746 /* CommonDependencies */ = {
 			isa = PBXGroup;
 			children = (
 				4367EEC424F9961D0089761B /* CommonDependencies.swift */,
 			);
-			path = Dependencies;
+			path = CommonDependencies;
 			sourceTree = "<group>";
 		};
 		4316599A24FB0B350023C746 /* Screens */ = {
@@ -235,6 +239,56 @@
 				437CE22F24CF6ACA00B8E6C8 /* PostsFeature */,
 			);
 			path = Features;
+			sourceTree = "<group>";
+		};
+		4316599F24FBB6AA0023C746 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				431659A024FBB7670023C746 /* Extensions */,
+				4316599824FB0ACC0023C746 /* CommonDependencies */,
+				439AAD4824EDD3E7005FB2E1 /* AppDelegate+Services */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		431659A024FBB7670023C746 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		431659A124FBB7C10023C746 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				436904DE24CB145A0097E319 /* AppDelegate.swift */,
+				436904E024CB145A0097E319 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		431659A224FBB7CE0023C746 /* PushNotification */ = {
+			isa = PBXGroup;
+			children = (
+				439AAD4A24EDD3E7005FB2E1 /* PushNotificationsService.swift */,
+			);
+			path = PushNotification;
+			sourceTree = "<group>";
+		};
+		431659A324FBB7DB0023C746 /* CrashReporter */ = {
+			isa = PBXGroup;
+			children = (
+				439AAD4924EDD3E7005FB2E1 /* CrashReporterService.swift */,
+			);
+			path = CrashReporter;
+			sourceTree = "<group>";
+		};
+		431659A424FBB7EF0023C746 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				439AAD4B24EDD3E7005FB2E1 /* AnalyticsService.swift */,
+			);
+			path = Analytics;
 			sourceTree = "<group>";
 		};
 		436904D224CB145A0097E319 = {
@@ -331,11 +385,10 @@
 		437CE22524CF67DD00B8E6C8 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				439AAD4824EDD3E7005FB2E1 /* AppDelegate+Services */,
-				4369051B24CC4ACC0097E319 /* Network */,
 				4316599724FB0AC00023C746 /* Enviroment */,
-				4316599824FB0ACC0023C746 /* Dependencies */,
+				4369051B24CC4ACC0097E319 /* Network */,
 				4316599624FB0AAD0023C746 /* Views */,
+				4316599F24FBB6AA0023C746 /* Helpers */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -403,11 +456,10 @@
 		439AAD4824EDD3E7005FB2E1 /* AppDelegate+Services */ = {
 			isa = PBXGroup;
 			children = (
-				436904DE24CB145A0097E319 /* AppDelegate.swift */,
-				436904E024CB145A0097E319 /* SceneDelegate.swift */,
-				439AAD4924EDD3E7005FB2E1 /* CrashReporterService.swift */,
-				439AAD4A24EDD3E7005FB2E1 /* PersistenceService.swift */,
-				439AAD4B24EDD3E7005FB2E1 /* AnalyticsService.swift */,
+				431659A124FBB7C10023C746 /* AppDelegate */,
+				431659A224FBB7CE0023C746 /* PushNotification */,
+				431659A424FBB7EF0023C746 /* Analytics */,
+				431659A324FBB7DB0023C746 /* CrashReporter */,
 			);
 			path = "AppDelegate+Services";
 			sourceTree = "<group>";
@@ -448,7 +500,7 @@
 				436904D724CB145A0097E319 /* Sources */,
 				436904D824CB145A0097E319 /* Frameworks */,
 				436904D924CB145A0097E319 /* Resources */,
-				81074539C2389C310BC1828B /* [CP] Embed Pods Frameworks */,
+				F7ABFC148D7FE71235707C2F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -486,7 +538,7 @@
 				436904FB24CB145C0097E319 /* Sources */,
 				436904FC24CB145C0097E319 /* Frameworks */,
 				436904FD24CB145C0097E319 /* Resources */,
-				F27F0E263DDF8528BF525C50 /* [CP] Embed Pods Frameworks */,
+				7BDDB246E1A3C33575BCB512 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -663,24 +715,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		81074539C2389C310BC1828B /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Development/Pods-Development-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Development/Pods-Development-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Development/Pods-Development-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F27F0E263DDF8528BF525C50 /* [CP] Embed Pods Frameworks */ = {
+		7BDDB246E1A3C33575BCB512 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -697,6 +732,23 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Development-MVVM+SWIFTUI+COMBINEUITests/Pods-Development-MVVM+SWIFTUI+COMBINEUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		F7ABFC148D7FE71235707C2F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Development/Pods-Development-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Development/Pods-Development-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Development/Pods-Development-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -708,10 +760,11 @@
 				436904DF24CB145A0097E319 /* AppDelegate.swift in Sources */,
 				43093C8124E4AD070069BB01 /* BaseEndPointProtocol.swift in Sources */,
 				4367EECB24F99AD50089761B /* URLsessionClient.swift in Sources */,
-				4316599224FADDB30023C746 /* Banner.swift in Sources */,
 				439AAD4E24EDD3E8005FB2E1 /* AnalyticsService.swift in Sources */,
+				435D88DB24FDC0E600768A5D /* UIDevice.swift in Sources */,
 				4369051624CC49800097E319 /* PostsRepository.swift in Sources */,
 				43093C8824E4ADC00069BB01 /* PostListViewBuilder.swift in Sources */,
+				435D88D824FDB82F00768A5D /* SnackBar.swift in Sources */,
 				43093C8424E4AD890069BB01 /* PostsEndPoints.swift in Sources */,
 				437CE22724CF67FD00B8E6C8 /* Environment.swift in Sources */,
 				4369051424CB160E0097E319 /* PostDetailView.swift in Sources */,
@@ -720,7 +773,7 @@
 				439AAD4C24EDD3E8005FB2E1 /* CrashReporterService.swift in Sources */,
 				4369051D24CC4B5C0097E319 /* PostDetailsViewModel.swift in Sources */,
 				4369051824CC49E50097E319 /* PostslistViewModel.swift in Sources */,
-				439AAD4D24EDD3E8005FB2E1 /* PersistenceService.swift in Sources */,
+				439AAD4D24EDD3E8005FB2E1 /* PushNotificationsService.swift in Sources */,
 				436904E124CB145A0097E319 /* SceneDelegate.swift in Sources */,
 				4367EEC224F993EE0089761B /* APIClientProtocol.swift in Sources */,
 				436904E624CB145A0097E319 /* PostsListView.swift in Sources */,
@@ -752,10 +805,11 @@
 				437CE20C24CF639D00B8E6C8 /* AppDelegate.swift in Sources */,
 				43093C8224E4AD070069BB01 /* BaseEndPointProtocol.swift in Sources */,
 				4367EECC24F99AD50089761B /* URLsessionClient.swift in Sources */,
-				4316599324FADDB30023C746 /* Banner.swift in Sources */,
 				4367EEBC24F651520089761B /* AnalyticsService.swift in Sources */,
+				435D88DC24FDC0E600768A5D /* UIDevice.swift in Sources */,
 				437CE20D24CF639D00B8E6C8 /* PostsRepository.swift in Sources */,
 				43093C8924E4ADC00069BB01 /* PostListViewBuilder.swift in Sources */,
+				435D88D924FDB82F00768A5D /* SnackBar.swift in Sources */,
 				43093C8524E4AD890069BB01 /* PostsEndPoints.swift in Sources */,
 				437CE22824CF67FD00B8E6C8 /* Environment.swift in Sources */,
 				437CE21024CF639D00B8E6C8 /* PostDetailView.swift in Sources */,
@@ -764,7 +818,7 @@
 				4367EEBA24F6514D0089761B /* CrashReporterService.swift in Sources */,
 				437CE21324CF639D00B8E6C8 /* PostDetailsViewModel.swift in Sources */,
 				437CE21424CF639D00B8E6C8 /* PostslistViewModel.swift in Sources */,
-				4367EEBB24F651500089761B /* PersistenceService.swift in Sources */,
+				4367EEBB24F651500089761B /* PushNotificationsService.swift in Sources */,
 				437CE21624CF639D00B8E6C8 /* SceneDelegate.swift in Sources */,
 				4367EEC324F993EE0089761B /* APIClientProtocol.swift in Sources */,
 				437CE21724CF639D00B8E6C8 /* PostsListView.swift in Sources */,

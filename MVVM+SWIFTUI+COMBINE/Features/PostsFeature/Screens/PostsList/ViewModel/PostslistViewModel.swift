@@ -22,7 +22,6 @@ class PostslistViewModel: ObservableObject {
     
     init(postsRepository: PostsRepositoryProtocol) {
         self.postsRepository = postsRepository
-        self.fetchPosts()
     }
     
     func fetchPosts() {
@@ -32,8 +31,8 @@ class PostslistViewModel: ObservableObject {
                     guard let self = self else { return }
                     switch value {
                     case .failure(let error):
-                        self.showBanner = true
-                       print(error.message)
+                      //  self.showBanner = true
+                  //      self.errorMessage = error.message
                         self.posts = []
                     default:
                         break

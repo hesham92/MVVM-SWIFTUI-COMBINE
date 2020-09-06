@@ -13,7 +13,7 @@ import CoreData
 class AppDelegate: UIResponder, UIApplicationDelegate {
     
     var services: [UIApplicationDelegate] = [
-        PersistenceService(),
+        PushNotificationsService(),
         AnalyticsService(),
         CrashReporterService()
     ]

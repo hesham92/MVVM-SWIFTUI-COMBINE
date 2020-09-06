@@ -11,17 +11,22 @@ import SwiftUI
 struct PostsListView: View {
     
     @ObservedObject var viewModel: PostslistViewModel
-   // @State var bannerData: BannerModifier.BannerData
-
+    
     var body: some View {
         NavigationView {
-            List(viewModel.posts) { post in
-                NavigationLink(destination: PostsFeature.postDetailsView(postID: post.id)) {
-                    PostRow(post: post)
+            ZStack {
+                List(viewModel.posts) { post in
+                    NavigationLink(destination: PostsBuilder.postDetailsView(postID: post.id)) {
+                        PostRow(post: post)
+                    }
                 }
+                
+                }//.snackBar(data:SnackBarInfo(title: "Error", type: .error, detail: viewModel.errorMessage),show: $viewModel.showBanner)
             }
             .navigationBarTitle("Posts")
-        }//.banner(data: $bannerData , show: $viewModel.showBanner)
+        .onAppear(perform: {
+            self.viewModel.fetchPosts()
+        })
     }
 }
 
@@ -33,7 +38,7 @@ struct PostRow: View {
             VStack(alignment: .leading) {
                 Text(post.title)
                     .font(.system(size: 21, weight: .medium, design: .default))
-                   
+                
             }
         }
     }

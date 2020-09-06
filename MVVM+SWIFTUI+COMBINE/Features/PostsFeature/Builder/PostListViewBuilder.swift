@@ -9,7 +9,7 @@
 import Foundation
 import SwiftUI
 
-enum PostsFeature {
+enum PostsBuilder {
     static func postslistView() -> some View {
         let postsRepository = PostsRepository(apiClient: CommonDependencies.makeAPIClient())
         let viewModel = PostslistViewModel(postsRepository: postsRepository)
