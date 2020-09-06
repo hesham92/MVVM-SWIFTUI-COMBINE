@@ -17,7 +17,7 @@ class PostDetailsViewModel: ObservableObject {
     private let postsRepository: PostsRepositoryProtocol
     let postID: Int
     
-    init(postsRepository: PostsRepositoryProtocol, postID: Int) {
+    init(postsRepository: PostsRepositoryProtocol = PostsRepository(), postID: Int) {
         self.postsRepository = postsRepository
         self.postID = postID
     }

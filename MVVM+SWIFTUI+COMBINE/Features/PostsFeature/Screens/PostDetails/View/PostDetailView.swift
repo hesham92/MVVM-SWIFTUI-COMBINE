@@ -22,6 +22,10 @@ struct PostDetailView: View {
                 self.viewModel.fetchPostDetails()
             })
     }
+    
+    static func make(postID: Int) -> some View {
+        return PostDetailView(viewModel: PostDetailsViewModel(postID: postID))
+    }
 }
 
 

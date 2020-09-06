@@ -19,7 +19,7 @@ class PostsRepository: PostsRepositoryProtocol {
     let apiClient: APIClientProtocol
     //TODO: — localClient in case there caching like doownloading files
     
-    init(apiClient: APIClientProtocol) {
+    init(apiClient: APIClientProtocol = AlamofireClient()) {
         self.apiClient = apiClient
     }
     

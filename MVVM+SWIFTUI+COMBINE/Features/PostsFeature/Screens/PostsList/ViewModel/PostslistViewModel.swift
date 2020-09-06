@@ -20,7 +20,7 @@ class PostslistViewModel: ObservableObject {
     let postsRepository: PostsRepositoryProtocol
     var disposables = Set<AnyCancellable>()
     
-    init(postsRepository: PostsRepositoryProtocol) {
+    init(postsRepository: PostsRepositoryProtocol = PostsRepository()) {
         self.postsRepository = postsRepository
     }
     

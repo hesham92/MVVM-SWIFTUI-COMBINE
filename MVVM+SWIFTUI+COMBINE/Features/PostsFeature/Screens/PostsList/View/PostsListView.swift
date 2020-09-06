@@ -16,7 +16,7 @@ struct PostsListView: View {
         NavigationView {
             ZStack {
                 List(viewModel.posts) { post in
-                    NavigationLink(destination: PostsBuilder.postDetailsView(postID: post.id)) {
+                    NavigationLink(destination: PostDetailView.make(postID: post.id)) {
                         PostRow(post: post)
                     }
                 }
@@ -27,6 +27,10 @@ struct PostsListView: View {
         .onAppear(perform: {
             self.viewModel.fetchPosts()
         })
+    }
+    
+    static func make() -> some View {
+        return PostsListView(viewModel: PostslistViewModel())
     }
 }
 

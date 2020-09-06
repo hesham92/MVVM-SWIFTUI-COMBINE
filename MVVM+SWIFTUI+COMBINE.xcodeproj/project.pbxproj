@@ -12,19 +12,11 @@
 		43093C8224E4AD070069BB01 /* BaseEndPointProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43093C8024E4AD070069BB01 /* BaseEndPointProtocol.swift */; };
 		43093C8424E4AD890069BB01 /* PostsEndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43093C8324E4AD890069BB01 /* PostsEndPoints.swift */; };
 		43093C8524E4AD890069BB01 /* PostsEndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43093C8324E4AD890069BB01 /* PostsEndPoints.swift */; };
-		43093C8824E4ADC00069BB01 /* PostListViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43093C8724E4ADC00069BB01 /* PostListViewBuilder.swift */; };
-		43093C8924E4ADC00069BB01 /* PostListViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43093C8724E4ADC00069BB01 /* PostListViewBuilder.swift */; };
-		435D88D824FDB82F00768A5D /* SnackBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435D88D724FDB82F00768A5D /* SnackBar.swift */; };
-		435D88D924FDB82F00768A5D /* SnackBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435D88D724FDB82F00768A5D /* SnackBar.swift */; };
-		435D88DB24FDC0E600768A5D /* UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435D88DA24FDC0E600768A5D /* UIDevice.swift */; };
-		435D88DC24FDC0E600768A5D /* UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435D88DA24FDC0E600768A5D /* UIDevice.swift */; };
 		4367EEBA24F6514D0089761B /* CrashReporterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439AAD4924EDD3E7005FB2E1 /* CrashReporterService.swift */; };
 		4367EEBB24F651500089761B /* PushNotificationsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439AAD4A24EDD3E7005FB2E1 /* PushNotificationsService.swift */; };
 		4367EEBC24F651520089761B /* AnalyticsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439AAD4B24EDD3E7005FB2E1 /* AnalyticsService.swift */; };
 		4367EEC224F993EE0089761B /* APIClientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4367EEC124F993EE0089761B /* APIClientProtocol.swift */; };
 		4367EEC324F993EE0089761B /* APIClientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4367EEC124F993EE0089761B /* APIClientProtocol.swift */; };
-		4367EEC524F9961D0089761B /* CommonDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4367EEC424F9961D0089761B /* CommonDependencies.swift */; };
-		4367EEC624F9961D0089761B /* CommonDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4367EEC424F9961D0089761B /* CommonDependencies.swift */; };
 		4367EECB24F99AD50089761B /* URLsessionClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4367EECA24F99AD50089761B /* URLsessionClient.swift */; };
 		4367EECC24F99AD50089761B /* URLsessionClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4367EECA24F99AD50089761B /* URLsessionClient.swift */; };
 		436904DF24CB145A0097E319 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436904DE24CB145A0097E319 /* AppDelegate.swift */; };
@@ -86,11 +78,7 @@
 		31E792D7EA275F9B8B5F8563 /* Pods-Development-MVVM+SWIFTUI+COMBINEUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Development-MVVM+SWIFTUI+COMBINEUITests.release.xcconfig"; path = "Target Support Files/Pods-Development-MVVM+SWIFTUI+COMBINEUITests/Pods-Development-MVVM+SWIFTUI+COMBINEUITests.release.xcconfig"; sourceTree = "<group>"; };
 		43093C8024E4AD070069BB01 /* BaseEndPointProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseEndPointProtocol.swift; sourceTree = "<group>"; };
 		43093C8324E4AD890069BB01 /* PostsEndPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsEndPoints.swift; sourceTree = "<group>"; };
-		43093C8724E4ADC00069BB01 /* PostListViewBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostListViewBuilder.swift; sourceTree = "<group>"; };
-		435D88D724FDB82F00768A5D /* SnackBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnackBar.swift; sourceTree = "<group>"; };
-		435D88DA24FDC0E600768A5D /* UIDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDevice.swift; sourceTree = "<group>"; };
 		4367EEC124F993EE0089761B /* APIClientProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClientProtocol.swift; sourceTree = "<group>"; };
-		4367EEC424F9961D0089761B /* CommonDependencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonDependencies.swift; sourceTree = "<group>"; };
 		4367EECA24F99AD50089761B /* URLsessionClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLsessionClient.swift; sourceTree = "<group>"; };
 		436904DB24CB145A0097E319 /* Development.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Development.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		436904DE24CB145A0097E319 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -173,14 +161,6 @@
 			path = EndPoints;
 			sourceTree = "<group>";
 		};
-		43093C8A24E4ADF70069BB01 /* Builder */ = {
-			isa = PBXGroup;
-			children = (
-				43093C8724E4ADC00069BB01 /* PostListViewBuilder.swift */,
-			);
-			path = Builder;
-			sourceTree = "<group>";
-		};
 		4316599424FB09420023C746 /* Base */ = {
 			isa = PBXGroup;
 			children = (
@@ -199,29 +179,12 @@
 			path = Clients;
 			sourceTree = "<group>";
 		};
-		4316599624FB0AAD0023C746 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				435D88D724FDB82F00768A5D /* SnackBar.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
 		4316599724FB0AC00023C746 /* Enviroment */ = {
 			isa = PBXGroup;
 			children = (
-				435D88DA24FDC0E600768A5D /* UIDevice.swift */,
 				437CE22624CF67FD00B8E6C8 /* Environment.swift */,
 			);
 			path = Enviroment;
-			sourceTree = "<group>";
-		};
-		4316599824FB0ACC0023C746 /* CommonDependencies */ = {
-			isa = PBXGroup;
-			children = (
-				4367EEC424F9961D0089761B /* CommonDependencies.swift */,
-			);
-			path = CommonDependencies;
 			sourceTree = "<group>";
 		};
 		4316599A24FB0B350023C746 /* Screens */ = {
@@ -244,18 +207,9 @@
 		4316599F24FBB6AA0023C746 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				431659A024FBB7670023C746 /* Extensions */,
-				4316599824FB0ACC0023C746 /* CommonDependencies */,
 				439AAD4824EDD3E7005FB2E1 /* AppDelegate+Services */,
 			);
 			path = Helpers;
-			sourceTree = "<group>";
-		};
-		431659A024FBB7670023C746 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Extensions;
 			sourceTree = "<group>";
 		};
 		431659A124FBB7C10023C746 /* AppDelegate */ = {
@@ -387,7 +341,6 @@
 			children = (
 				4316599724FB0AC00023C746 /* Enviroment */,
 				4369051B24CC4ACC0097E319 /* Network */,
-				4316599624FB0AAD0023C746 /* Views */,
 				4316599F24FBB6AA0023C746 /* Helpers */,
 			);
 			path = Shared;
@@ -428,7 +381,6 @@
 		437CE22F24CF6ACA00B8E6C8 /* PostsFeature */ = {
 			isa = PBXGroup;
 			children = (
-				43093C8A24E4ADF70069BB01 /* Builder */,
 				437CE23024CF6AE200B8E6C8 /* Models */,
 				43093C7F24E4ACD40069BB01 /* EndPoints */,
 				437CE23124CF6AE800B8E6C8 /* Repository */,
@@ -756,15 +708,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4367EEC524F9961D0089761B /* CommonDependencies.swift in Sources */,
 				436904DF24CB145A0097E319 /* AppDelegate.swift in Sources */,
 				43093C8124E4AD070069BB01 /* BaseEndPointProtocol.swift in Sources */,
 				4367EECB24F99AD50089761B /* URLsessionClient.swift in Sources */,
 				439AAD4E24EDD3E8005FB2E1 /* AnalyticsService.swift in Sources */,
-				435D88DB24FDC0E600768A5D /* UIDevice.swift in Sources */,
 				4369051624CC49800097E319 /* PostsRepository.swift in Sources */,
-				43093C8824E4ADC00069BB01 /* PostListViewBuilder.swift in Sources */,
-				435D88D824FDB82F00768A5D /* SnackBar.swift in Sources */,
 				43093C8424E4AD890069BB01 /* PostsEndPoints.swift in Sources */,
 				437CE22724CF67FD00B8E6C8 /* Environment.swift in Sources */,
 				4369051424CB160E0097E319 /* PostDetailView.swift in Sources */,
@@ -801,15 +749,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4367EEC624F9961D0089761B /* CommonDependencies.swift in Sources */,
 				437CE20C24CF639D00B8E6C8 /* AppDelegate.swift in Sources */,
 				43093C8224E4AD070069BB01 /* BaseEndPointProtocol.swift in Sources */,
 				4367EECC24F99AD50089761B /* URLsessionClient.swift in Sources */,
 				4367EEBC24F651520089761B /* AnalyticsService.swift in Sources */,
-				435D88DC24FDC0E600768A5D /* UIDevice.swift in Sources */,
 				437CE20D24CF639D00B8E6C8 /* PostsRepository.swift in Sources */,
-				43093C8924E4ADC00069BB01 /* PostListViewBuilder.swift in Sources */,
-				435D88D924FDB82F00768A5D /* SnackBar.swift in Sources */,
 				43093C8524E4AD890069BB01 /* PostsEndPoints.swift in Sources */,
 				437CE22824CF67FD00B8E6C8 /* Environment.swift in Sources */,
 				437CE21024CF639D00B8E6C8 /* PostDetailView.swift in Sources */,

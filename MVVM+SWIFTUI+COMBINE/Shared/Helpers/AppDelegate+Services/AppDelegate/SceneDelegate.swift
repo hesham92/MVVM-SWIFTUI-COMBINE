@@ -29,7 +29,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         // Use a UIHostingController as window root view controller.
         let window = UIWindow(windowScene: windowScene)
-        window.rootViewController = UIHostingController(rootView: PostsBuilder.postslistView())
+        window.rootViewController = UIHostingController(rootView: PostsListView.make())
         window.makeKeyAndVisible()
         self.window = window
     }
